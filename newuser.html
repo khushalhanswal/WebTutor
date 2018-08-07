@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body topmargin=0 >
+    <div>
+		<div>
+		
+			<br>
+			<center><h1 class="tit">The WebTutor</h1><center>
+		</div>
+<br><br><br><br>
+        <center><div style="width:50% "class="black pad">
+
+			<h2 class="tit">Register New User</h2>
+                <form action='SaveNewUser.php' method='POST'>
+				<table valign="left" border="0" cellspacing="4" cellpadding="4">
+					<tr><td><b>Register No.</b></td><td><input type="text" name="regno"></td></tr>
+					<tr><td><b>User Name</b></td><td><input type="text" name="uname"></td></tr>
+					<tr><td><b>Password</b></td><td><input type="password" name="pwd"></td></tr>
+					<tr><td><b>Confirm Password</b></td><td><input type="password" name="cpwd"></td></tr>
+					<tr><td><b>Gender</b></td><td><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female</td></tr>
+					<tr><td><b>Date of Birth</b></td><td><input type="text" name="dd" size="2">/<input type="text" name="mm" size="2">/<input type="text" name="yy" size="4"> dd/mm/yyyy</td></tr>
+					<tr><td><b>Department</b></td><td><select name="dept"><option>IT</option><option>CSE</option><option>SWE</option><option>ECE</option></td></tr>
+					<tr><td><b>E-mail Id.</b></td><td><input type="text" name="email"></tr>
+					<tr><td><b>Mobile No.</b></td><td><input type="text" name="mobile"></tr>
+					<tr><td></td><td><input type="submit" value=" Submit " name="btnsubmit"></td></tr>
+				</table>
+				</form>
+      </div><center>
+			</div>
+
+
+</body>
+</html>

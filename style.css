@@ -1,0 +1,75 @@
+body{
+background-image: url("laptopbg.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity:0.95;
+  }
+
+  .tit{
+    color: #D9EDDE;
+    font-family:arial;
+    letter-spacing: 1px;
+  }
+
+  .par{
+    text-align: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+
+  }
+  .para{
+    color:white;
+    font-family: "Lato", sans-serif;;
+  }
+  .dib
+  {
+    background-color: #657569;
+    font-family: "Lato", sans-serif;
+    
+    width: 70%;
+    padding: 10px;
+    margin-left: 20%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #420d01;
+  }
+  .black
+  {
+    background-color: #701600;
+    font-family: "Lato", sans-serif;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #420d01;
+  }
+  .pad
+  {
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  +
